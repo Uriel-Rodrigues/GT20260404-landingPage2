@@ -18,6 +18,21 @@ podemos indicar atraves dos eixos x e y
 
 ```
  position: absolute; -> permite que usemos o eixo "z" tornando um elemento como obsolute colocamos ele "uma cada pra frente" 
+
+ criar uma tag ja com um id ou class:
+ tag#nome_id
+ tag.nome_class
+
+ line-height: ; -> pode ser usado para alinhar textos diferente do heigth o line faz crescer as o tamanho de forma igual para cima e para baixo ja deixando o texto alinhado 
+
+quando fazemos a indicação do elemento com o espaço estamos dizendo que ele é um filho do elemento pai 
+quando fazemos sem espaço dizemos que ele na verdade é uma variação do elemento pai 
+no caso abaixo aplicaria xxx somente na div com id  #capuccino{
+& div{
+
+     &#capuccino{ xxxx }
+}
+
 ```
 
  https://www.figma.com/design/lszzn35oka11VrsLkVPxDe/-Mini-Projeto--Meow-Caf%C3%A9-Design--Community-?node-id=0-1&p=f&t=vWlGqIV0UX16cFFj-0
