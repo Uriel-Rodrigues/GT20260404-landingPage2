@@ -253,13 +253,12 @@ header{
     height: 370px;
     margin: 100px auto;
 
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     
     & div:first-child{
-        margin-bottom: 90px;
+        margin-top: -90px;
     }
 
     & div:last-child {
@@ -291,8 +290,6 @@ header{
 
             border-radius: 30px;
             box-shadow: 0px 8px 7px 0px #00000025;
-
-            
         }
     }
 
@@ -368,8 +365,8 @@ header{
 
 }
 
-#meowEnjoy{
-    border: 2px solid red;
+/* #meowEnjoy{
+    position: relative;
     width:1120px;
     height: 460px;
     margin: 0 auto;
@@ -382,7 +379,24 @@ header{
         width: 750px;
         display: flex;
         flex-direction: column;
-        justify-content: center;        
+        justify-content: center;
+        margin-top: 20px;    
+        
+    &::after{
+        content:"";
+
+        position: absolute;
+
+        width: 630px;
+        height: 560px;
+        background-image: url("assets/xicara.png");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center -30px;
+        margin-left: 20%;
+
+        z-index: 0;
+    }    
         
         & h1{
             line-height: 100%;
@@ -430,6 +444,11 @@ header{
         color: #FFFFFF;
         background: linear-gradient(202.65deg, #8F423D 4.72%, #FFFFFF 102.83%);
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
         border-radius: 0 40px 40px 0;
 
         & h1{
@@ -438,6 +457,7 @@ header{
             font-size: 40px;
             font-style: bold;
             text-align: center;
+            margin-top: 20px;
 
         }
 
@@ -450,22 +470,116 @@ header{
         & p{
             width: 280px;
             height: 40px;
-            text-align: center;
+            
         }
 
         &#endereco{
             background: transparent;
             display: flex;
             flex-direction: row;
+            justify-content: center;
 
             & img{
                 width: 30px;
 
             }
 
+            & p{
+                margin-top: 10px;
+            }
+
 
         }
 
 
+    }
+} */
+
+/* inicio gleidson modo */
+#localizacao{
+    width: 1115px;
+    margin: 0 auto;
+    border-radius: 48px;
+    color: #FFFFFF;
+    display: flex;
+    background-image: linear-gradient(#541511A8, #F3C7C4);
+    position: relative;
+
+    & h2 {
+        font-size: 80px;
+        line-height: 84px;
+    }
+    & .detalhe{
+        width: 50px;
+        height: 1px;
+        background-color: #FFFFFF;
+    }
+
+    & img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+/* fim gleidson modo */
+
+
+#detalhe5{
+    border-bottom: 2px solid #00000014;
+    width: 1120px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+footer{
+    display: flex;
+    width: 1180px;
+    height: 287px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+    & div{
+        & h1 {
+            font-weight: 500;
+            font-size: 20px;
+            font-style: bold;
+            width: 214px;
+            height: 32px;
+        }
+
+        & p {
+            color:  #3C0E0E;
+        }
+
+        &#informacoes{
+            width: 300px;
+            height: 215px;
+
+        }
+
+        &#linksUteis{
+            width: 130px;
+            height: 170px;
+
+            & p{
+                width: 76px;
+                height: 127px ;
+            }
+        }
+
+        &#institucional{
+            width: 284px;
+            height: 215px;
+            
+            & p{
+                width: 280px;
+                height: 170px ;
+            }
+        }
     }
 }

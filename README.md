@@ -40,4 +40,5 @@ no caso abaixo aplicaria xxx somente na div com id  #capuccino{
  https://github.com/orgs/GT04-aldeota/repositories
 
  https://dontpad.com/gt04-aldeota
-
+ 
+ https://v2.boxicons.com/?query=
