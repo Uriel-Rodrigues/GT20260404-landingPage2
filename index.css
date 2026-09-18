@@ -370,6 +370,7 @@ header{
     }   
 }
 
+
 /* #meowEnjoy{
     position: relative;
     width:1120px;
@@ -607,9 +608,8 @@ header{
 #detalhe5{
     border-bottom: 2px solid #00000014;
     width: 1120px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 10% auto;
+    
     
 }
 
@@ -632,6 +632,12 @@ footer{
 
         & p {
             color:  #3C0E0E;
+            transition-duration: 200ms;
+            
+            &:hover {
+                color: #C27D7A;
+                padding-left: 10px;
+            }
         }
 
         &#informacoes{
@@ -646,7 +652,11 @@ footer{
 
             & p{
                 width: 76px;
-                height: 127px ;
+                height: auto ;
+
+                &:hover{
+                    cursor: pointer;
+                }
             }
         }
 
@@ -656,7 +666,7 @@ footer{
             
             & p{
                 width: 280px;
-                height: 170px ;
+                height: auto ;
             }
         }
     }

@@ -27,12 +27,18 @@ podemos indicar atraves dos eixos x e y
 
 quando fazemos a indicação do elemento com o espaço estamos dizendo que ele é um filho do elemento pai 
 quando fazemos sem espaço dizemos que ele na verdade é uma variação do elemento pai 
-no caso abaixo aplicaria xxx somente na div com id  #capuccino{
+no caso abaixo aplicaria xxx somente na div com id  #capuccino
+
 & div{
 
      &#capuccino{ xxxx }
 }
 
+
+podedmeos atingir elementos usando pseudo classes no css
+& > div:nth-of-type(n) -> vai pegar somente o emento n do tipo div que seja filho direto de um elemento 
+
+overflow: hidden; -> corta tudo que estiver passando de um elemento pai 
 ```
 
  https://www.figma.com/design/lszzn35oka11VrsLkVPxDe/-Mini-Projeto--Meow-Caf%C3%A9-Design--Community-?node-id=0-1&p=f&t=vWlGqIV0UX16cFFj-0
@@ -42,3 +48,6 @@ no caso abaixo aplicaria xxx somente na div com id  #capuccino{
  https://dontpad.com/gt04-aldeota
  
  https://v2.boxicons.com/?query=
+
+programador iniciante video youtube
+curriculo dev
